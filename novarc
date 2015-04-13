@@ -1,0 +1,7 @@
+#!/bin/bash -e
+export OS_TENANT_NAME=admin
+export OS_USERNAME=admin
+export OS_PASSWORD=password
+export OS_AUTH_URL="http://127.0.0.1:5000/v2.0/"
+export VM_IMAGE_REF=5cc37575-4476-4562-9708-3e315c9b1e1a
+export VM_FLAVOR_ID=13
