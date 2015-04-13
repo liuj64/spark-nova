@@ -5,7 +5,11 @@ http://spark.apache.org/docs/latest/ec2-scripts.html
 
 How to use this script
 
-1. Edit novarc for your Openstack Env and ImageId, FlavorId
+1. Install python-novaclient
+
+  https://pypi.python.org/pypi/python-novaclient
+
+2. Edit novarc for your Openstack Env and ImageId, FlavorId
 
 2. Run command 
   $ source novarc
